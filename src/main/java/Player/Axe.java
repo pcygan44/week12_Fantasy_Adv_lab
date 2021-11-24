@@ -6,7 +6,7 @@ public class Axe extends Weapon {
 
     private int damage;
 
-    public Axe(String name, int damage) {
+    public Axe(String name) {
         super(name);
         this.damage = 9;
     }

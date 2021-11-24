@@ -6,7 +6,7 @@ public class Sword extends Weapon {
 
     private int damage;
 
-    public Sword(String name, int damage) {
+    public Sword(String name) {
         super(name);
         this.damage = 5;
     }

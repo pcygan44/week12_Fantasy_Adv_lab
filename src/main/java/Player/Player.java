@@ -1,6 +1,9 @@
 package Player;
 
+import behaviours.IWeapon;
+
 public abstract class Player {
+
 
     private String name;
 
@@ -12,5 +15,5 @@ public abstract class Player {
         return name;
     }
 
-    public abstract void takeDamage();
+
 }

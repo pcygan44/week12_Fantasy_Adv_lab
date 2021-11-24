@@ -8,4 +8,6 @@ public abstract class Weapon implements IWeapon {
     public Weapon(String name) {
         this.name = name;
     }
+
+
 }

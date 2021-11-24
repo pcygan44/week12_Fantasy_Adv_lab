@@ -6,7 +6,7 @@ public class Club extends Weapon {
 
     private int damage;
 
-    public Club(String name, int damage) {
+    public Club(String name) {
         super(name);
         this.damage = 3;
     }
