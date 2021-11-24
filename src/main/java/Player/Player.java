@@ -15,5 +15,8 @@ public abstract class Player {
         return name;
     }
 
+    public abstract void takeDamage(Enemy enemy);
+
+
 
 }

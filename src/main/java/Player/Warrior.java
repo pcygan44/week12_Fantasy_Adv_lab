@@ -10,7 +10,7 @@ public abstract class Warrior extends Player implements IWeapon {
         super(name);
     }
 
-    public abstract void takeDamage(Enemy enemy);
+
 
 
 }

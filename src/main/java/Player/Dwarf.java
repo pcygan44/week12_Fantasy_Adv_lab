@@ -8,7 +8,7 @@ public class Dwarf extends Warrior {
     
     IWeapon weapon;
 
-    public Dwarf(String name, int health, IWeapon weapon) {
+    public Dwarf(String name, IWeapon weapon) {
         super(name);
         this.health = 100;
         this.weapon = weapon;

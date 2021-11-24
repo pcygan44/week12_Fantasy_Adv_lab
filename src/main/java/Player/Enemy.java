@@ -12,7 +12,7 @@ public abstract class Enemy implements IWeapon {
         this.weapon = weapon;
     }
 
-    public abstract void takeDamage(IWeapon weapon);
+    public abstract void takeDamage(Warrior warrior);
 
 
 }
